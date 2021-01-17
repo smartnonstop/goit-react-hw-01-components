@@ -1,0 +1,67 @@
+.box {
+  background-color: lightgrey;
+  padding: 50px;
+}
+
+.card {
+  margin: 0 auto;
+  padding-top: 20px;
+  width: 300px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px 0px grey;
+}
+
+.avatar {
+  display: block;
+  margin: 0 auto 20px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.name {
+  margin: 0 0 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.tag {
+  margin: 0 0 10px;
+  font-size: 16px;
+  color: grey;
+  text-align: center;
+}
+
+.location {
+  margin: 0 0 20px;
+  font-size: 16px;
+  color: grey;
+  text-align: center;
+}
+
+.stats {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.stats li {
+  flex-grow: 1;
+  padding: 25px 0;
+  background-color: lightgrey;
+  text-align: center;
+  border: 1px solid grey;
+}
+
+.statName {
+  margin: 0 0 5px;
+  font-size: 13px;
+}
+
+.statCount {
+  margin: 0;
+  font-weight: bold;
+}
